@@ -133,12 +133,12 @@ export default function Home() {
                     >
                         {t('Smart Scheduling')}
                     </button>
-                    <button
+                    {/* <button
                         className={`focus:outline-none font-bold ${activeSection === 'manageSlots' ? 'text-white bg-black rounded-t-lg border-b-2 border-gray-900 py-3 px-6 h-12' : 'text-black py-3 px-6 h-12'}`}
                         onClick={() => switchSection('manageSlots')}
                     >
                         {t('Manage Slots')}
-                    </button>
+                    </button> */}
                     <button
                         className={`focus:outline-none font-bold ${activeSection === 'cancellations' ? 'text-white bg-black rounded-t-lg border-b-2 border-gray-900 py-3 px-6 h-12' : 'text-black py-3 px-6 h-12'}`}
                         onClick={() => switchSection('cancellations')}
